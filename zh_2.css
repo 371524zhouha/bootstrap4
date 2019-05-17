@@ -1,0 +1,64 @@
+/*body{*/
+    /*font-family: "Microsoft YaHei UI";*/
+/*}*/
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow:0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 35px;
+    color: #12e7e8;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle {
+    margin-top: 18px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #12e7e8;
+    background-color: #12e7e8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #af2828;
+}
+.progress{
+    margin-bottom: 11.5px;
+}
+.wh64{
+    width: 64px;
+    border-radius: 30%;
+}
+.mar-t15{
+    margin-top: 15px;
+}
+.mar-b10{
+    margin-bottom: 10px;
+}
+.page-header{
+    margin:0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+}
+.user_search{
+    padding:10px;
+    border: solid 1px #ddd;
+    border-top:none;
+}
+#tag_list .alert{
+    margin: 0 15px 15px 0;
+    padding: 5px 25px 5px 5px;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,215 @@
+body{
+    font-family: "Microsoft YaHei UI";
+}
+.navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow:0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand {
+    font-size: 35px;
+    color: #12e7e8;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle {
+    margin-top: 18px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color: #12e7e8;
+    background-color: #12e7e8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #af2828;
+}
+
+#home{
+    background: url("images/index.jpg");
+    background-size: cover;
+    /*height: 500px;*/
+    margin-top: 70px;
+    color: #ffff;
+    text-align: center;
+}
+.lvjing{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 90px 0;
+}
+#home h1{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#home p{
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+#home img{
+    display: inline-block;
+}
+
+#bbs {
+    padding: 40px 0;
+    text-align: center;
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+    background: #dadada;
+    box-shadow: 2px -2px 4px #cc3e29;
+}
+#bbs a{
+    color: aqua;
+    text-decoration: none;
+}
+#bbs img{
+    width:200px;
+    height:150px;
+    margin: auto;
+}
+
+#bbs h3{
+    font-weight: bold;
+}
+#html5:hover{
+    background-color: #dadada;
+}
+#html5 h2{
+    font-weight: bold;
+}
+
+#html5 p{
+    line-height: 30px;
+}
+.maizi{
+    background-color: #0eecd5;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+#bootstrap{
+    padding:20px 0;
+
+}
+#bootstrap:hover{
+    background-color: #dadada;
+}
+
+#bootstrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+#course{
+    text-align: center;
+}
+#course:hover{
+    background-color: #dadada;
+}
+#course h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+#course img{
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+#course button{
+    background-color: rgba(119, 207, 255, 0);
+    color: #31faff;
+    border: 1px solid #31faff;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: medium;
+}
+#course button:hover {
+    background-color: yellowgreen;
+}
+#app{
+    text-align: center;
+    margin-top: 30px;
+}
+#app h2{
+    padding: 30px;
+    font-weight: bold;
+}
+#app p{
+    text-align: left;
+    padding-bottom: 10px;
+}
+#app button{
+    background-color: #72e6ff;
+    color: #0c0b05;
+    border: 1px solid #31faff;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: medium;
+    transition: 2s all 0s;
+}
+#app button:hover{
+    background: #3eff56;
+    transition: 1s all 0s;
+}
+#contact{
+    background: url("images/地图.jpg")no-repeat;
+    background-size: cover;
+    color: white;
+}
+#contact .lvjing{
+    padding: 50px 40px 20px 50px;
+}
+#contact h2{
+    margin-top: 50px;
+    font-weight: bold;
+}
+#contact form{
+    margin-top: 60px;
+}
+#contact input.form-control {
+    border: none;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 0;
+}
+#contact textarea.form-control{
+    height: auto;
+    margin-bottom: 20px;
+    color: darkgray;
+}
+#contact input[type='submit']{
+    background-color: #7fe6ff;
+    color: white;
+    font-weight: bold;
+}
+#contact input[type='submit']:hover{
+    background-color: #25ff6b;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+footer{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
